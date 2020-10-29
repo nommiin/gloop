@@ -33,5 +33,40 @@ instantiate the `gloop` class and provide your code as the first argument, then 
 - //: Single line comments are supported
 - /\*: Multi line comments are supported but probably wonky
 
+### Example
+(as seen in `main.js`)
+```
+// Push values to stack with "one bad"
+one bad "Hello "
+one bad "World"
+gloop
+
+// Print out value on stack
+do what i yoinky
+
+
+// Add 2 values at once and push to stack
+two big splurgs {
+    32,
+    64
+}
+
+// Print out value on stack
+do what i yoinky
+
+// Add 3 values at once and push to stack
+three more yoinks {
+    "then I buy ",
+    "me a ",
+    "smoothie"
+}
+
+// Print out value on stack
+do what i yoinky
+
+// End execution
+gloop and a splurgy
+```
+
 # Notes
 Please don't ask me to work on this anymore than the 2 hours I spent
